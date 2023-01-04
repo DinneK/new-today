@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
+import Header from "../Header/Header.js";
+import ArticlesContainer from "../ArticlesContainer/ArticlesContainer.js";
+import Footer from "../Footer/Footer.js";
 import mockNewsArticles from "../mockData/mockData";
 import "./App.css";
 
 function App() {
-  console.log(mockNewsArticles.results);
+  const [articles, setArticles] = useState(mockNewsArticles.results);
+
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <main>
+      <Header />
+      <Routes>
+        <Route path="/" element={<ArticlesContainer articles={articles} />} />
+      </Routes>
+      <Footer />
+    </main>
   );
 }
 
