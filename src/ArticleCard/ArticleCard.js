@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./ArticleCard.css";
 
 const ArticleCard = ({
@@ -9,11 +10,31 @@ const ArticleCard = ({
   publishedDate,
   byLine,
   abstract,
+  articles,
+  // handleClick,
+  // props,
 }) => {
+  const [singleArticle, setSingleArticle] = useState();
+
   const rawDate = publishedDate.slice(0, -15);
   const date = rawDate.split("-");
   const datePublished = [date[1], date[2], date[0]].join("/");
   const newsSection = section.toUpperCase();
+
+  // console.log({ articles });
+
+  // const handleClick = (event) => {
+  //   // console.log(event.currentTarget.name);
+  //   const newSingleArticle = articles.articles.find((article) => {
+  //     return article.uri === event.currentTarget.name ? article : <p>Nein</p>;
+  //   });
+  //   console.log({ newSingleArticle });
+  //   return newSingleArticle;
+  // };
+
+  // const showStory = (props) => {
+  //   props.handleClick();
+  // };
 
   return (
     <article>
@@ -23,6 +44,11 @@ const ArticleCard = ({
       <h4 className="article-byline">{byLine}</h4>
       <h4 className="article-published">Published {datePublished}</h4>
       <h4 className="article-abstract">{abstract}</h4>
+      <Link to={`/article/${publishedDate}`}>
+        {/* <button name={id} onClick={(event) => handleClick(event)}> */}
+        Click
+        {/* </button> */}
+      </Link>
     </article>
   );
 };
