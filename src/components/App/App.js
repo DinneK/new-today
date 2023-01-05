@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Switch, Route } from "react-router-dom";
 import Header from "../Header/Header.js";
+import TitleSearchForm from "../TitleSearchForm/TitleSearchForm.js";
 import ArticlesContainer from "../ArticlesContainer/ArticlesContainer.js";
 import SingleArticle from "../SingleArticle/SingleArticle.js";
 import Footer from "../Footer/Footer.js";
@@ -10,6 +11,8 @@ import "./App.css";
 function App() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
 
   useEffect(() => {
     setLoading(true);
@@ -21,6 +24,18 @@ function App() {
         console.log(error);
       });
   }, []);
+
+  const handleChange = (event) => {
+    const search = event.target.value.toLowerCase();
+    setSearchTerm(search);
+  };
+
+  useEffect(() => {
+    const results = articles.filter((article) =>
+      article.title.toLowerCase().includes(searchTerm)
+    );
+    setSearchResults(results);
+  }, [searchTerm]);
 
   const findSingleArticle = (publishedDate) => {
     return articles.filter((article) => {
@@ -35,7 +50,15 @@ function App() {
         <Route
           exact
           path="/"
-          render={() => <ArticlesContainer articles={articles} />}
+          render={() => (
+            <div>
+              <TitleSearchForm
+                handleChange={handleChange}
+                // updateSearchByTitle={updateSearchByTitle}
+              />
+              <ArticlesContainer articles={articles} searchTerm={searchTerm} />
+            </div>
+          )}
         />
         <Route
           exact

@@ -2,9 +2,16 @@ import React from "react";
 import ArticleCard from "../ArticleCard/ArticleCard.js";
 import "./ArticlesContainer.css";
 
-const ArticlesContainer = (articles, handleClick) => {
-  // console.log({ articles });
-  const articleCards = articles.articles.map((article) => {
+const ArticlesContainer = ({ articles, searchTerm }) => {
+  let articleCards;
+  if (searchTerm !== "") {
+    articleCards = articles.filter((article) =>
+      article.title.toLowerCase().startsWith(searchTerm)
+    );
+  } else {
+    articleCards = articles;
+  }
+  const displayedArticles = articleCards.map((article) => {
     return (
       <ArticleCard
         id={article.uri}
@@ -16,21 +23,19 @@ const ArticlesContainer = (articles, handleClick) => {
         byLine={article.byline}
         abstract={article.abstract}
         articles={articles}
-        // handleClick={handleClick}
       />
     );
   });
-  return <section className="article-cards">{articleCards}</section>;
-};
 
-// A thumbnail URL
-// Title
-// Section
-// Published date
-// Byline
-// Abstract
-// Navigation to article details
-//id
-//key
+  return (
+    <section className="article-cards">
+      {displayedArticles.length ? (
+        displayedArticles
+      ) : (
+        <p>Ooopsy You're Wrong!</p>
+      )}
+    </section>
+  );
+};
 
 export default ArticlesContainer;
