@@ -1,27 +1,8 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./SingleArticle.css";
 
 const SingleArticle = ({ singleArticle }) => {
-  console.log(singleArticle[0].title);
-
-  // const clicked = articles?.find(
-  //   (article) => article.published_date === published_date
-  // );
-
-  // const {
-  //   title,
-  //   multimedia,
-  //   abstract,
-  //   byline,
-  //   published_date,
-  //   updated_date,
-  //   short_url,
-  //   section,
-  //   subsection,
-  // } = singleArticle;
-  // console.log({ singleArticle });
-
   const rawPublishedDate = singleArticle[0].published_date.slice(0, -15);
   const date = rawPublishedDate.split("-");
   const datePublished = [date[1], date[2], date[0]].join("/");
@@ -68,18 +49,3 @@ const SingleArticle = ({ singleArticle }) => {
 };
 
 export default SingleArticle;
-
-// A threeByTwoSmallAt2X URL
-//  URL Caption
-//  Title
-//  Section
-//  Subsection
-//  Published date
-//  Byline
-//  Abstract
-//  NYT Article URL
-//  Home Button
-
-// const {title, abstract, byline, published_date, updated_date, short_url, section, subsection, geo_facet } = article
-//     const publishedDate = published_date.split("T")[0]
-//     const updatedDate = updated_date.split("T")[0]
