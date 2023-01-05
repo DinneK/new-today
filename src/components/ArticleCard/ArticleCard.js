@@ -1,8 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ArticleCard.css";
 
 const ArticleCard = ({
-  id,
   thumbnail,
   title,
   section,
@@ -23,6 +23,7 @@ const ArticleCard = ({
       <h4 className="article-byline">{byLine}</h4>
       <h4 className="article-published">Published {datePublished}</h4>
       <h4 className="article-abstract">{abstract}</h4>
+      <Link to={`/article/${publishedDate}`}>Click</Link>
     </article>
   );
 };

@@ -1,5 +1,6 @@
 .article-cards {
   display: flex;
   flex-wrap: wrap;
+  height: 75vh;
   justify-content: space-evenly;
 }
