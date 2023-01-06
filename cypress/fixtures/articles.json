@@ -1,0 +1,199 @@
+{
+  "status": "OK",
+  "copyright":
+    "Copyright (c) 2023 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2023-01-03T12:27:28-05:00",
+  "num_results": 34,
+  "results": [
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Who Are the Republicans Opposing McCarthy’s Speaker Bid?",
+      "abstract":
+        "The rebellion has been led by a small but vocal group of ultraconservative Republicans. But there are other, less-known defectors who could help scuttle the G.O.P. leader’s candidacy.",
+      "url": "https://www.nytimes.com/2023/01/03/us/politics/kevin-mccarthy-republican-opposition.html",
+      "uri": "nyt://article/d9685c50-3258-52c5-aa3d-4fba6c7a43a1",
+      "byline": "By Catie Edmondson",
+      "item_type": "Article",
+      "updated_date": "2023-01-03T11:45:52-05:00",
+      "created_date": "2023-01-03T05:00:13-05:00",
+      "published_date": "2023-01-03T05:00:13-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["United States Politics and Government"],
+      "org_facet": ["House of Representatives", "Republican Party"],
+      "per_facet": [
+        "McCarthy, Kevin (1965- )",
+        "Biggs, Andy (1958- )",
+        "Gaetz, Matt",
+        "Good, Bob (1965- )",
+        "Ogles, Andy",
+        "Perry, Scott G (1962- )",
+        "Rosendale, Matt",
+        "Roy, Chip (1972- )",
+        "Norman, Ralph W Jr (1953- )",
+        "Bishop, J Daniel (1964- )",
+        "Crane, Eli (1980- )",
+        "Luna, Anna Paulina"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/01/03/multimedia/03dc-rebels-1-e81f/03dc-rebels-1-e81f-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption":
+            "Representative Kevin McCarthy must secure near unanimity among Republicans to win the speaker’s job.",
+          "copyright": "Mikayla Whitmore for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/01/03/multimedia/03dc-rebels-1-e81f/03dc-rebels-1-e81f-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption":
+            "Representative Kevin McCarthy must secure near unanimity among Republicans to win the speaker’s job.",
+          "copyright": "Mikayla Whitmore for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/01/03/multimedia/03dc-rebels-1-e81f/03dc-rebels-1-e81f-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption":
+            "Representative Kevin McCarthy must secure near unanimity among Republicans to win the speaker’s job.",
+          "copyright": "Mikayla Whitmore for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3Z59AEq"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "George Santos Comes to Washington. It Could Be Awkward.",
+      "abstract":
+        "On the first day of the 118th Congress, the representative-elect, a Republican who has made false claims about his background, education and finances, will bring his saga to Capitol Hill.",
+      "url": "https://www.nytimes.com/2023/01/03/us/politics/george-santos-congress.html",
+      "uri": "nyt://article/9d74d5a2-75e5-5a2d-8ff7-32b6ffa2d7dd",
+      "byline": "By Annie Karni",
+      "item_type": "Article",
+      "updated_date": "2023-01-03T11:06:21-05:00",
+      "created_date": "2023-01-03T05:00:20-05:00",
+      "published_date": "2023-01-03T05:00:20-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States Politics and Government",
+        "Midterm Elections (2022)"
+      ],
+      "org_facet": ["House of Representatives"],
+      "per_facet": ["Santos, George (1988- )"],
+      "geo_facet": ["Long Island (NY)"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/01/03/us/politics/03dc-santos/03dc-santos-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption":
+            "George Santos is under the shadow of active investigations by federal and local prosecutors into potential criminal activity during his two congressional campaigns.",
+          "copyright": "Alejandra Villa Loarca/Newsday RM, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/01/03/us/politics/03dc-santos/03dc-santos-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption":
+            "George Santos is under the shadow of active investigations by federal and local prosecutors into potential criminal activity during his two congressional campaigns.",
+          "copyright": "Alejandra Villa Loarca/Newsday RM, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/01/03/us/politics/03dc-santos/03dc-santos-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption":
+            "George Santos is under the shadow of active investigations by federal and local prosecutors into potential criminal activity during his two congressional campaigns.",
+          "copyright": "Alejandra Villa Loarca/Newsday RM, via Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3YYoJYa"
+    },
+    {
+      "section": "sports",
+      "subsection": "football",
+      "title":
+        "Damar Hamlin of Buffalo Bills in Critical Condition After Collapsing During N.F.L. Game",
+      "abstract":
+        "Hamlin, a 24-year-old safety, went into cardiac arrest after being hit, but his heartbeat was restored by medical personnel, the Bills said. The game against the Cincinnati Bengals was postponed.",
+      "url": "https://www.nytimes.com/2023/01/02/sports/football/damar-hamlin-bills-hit.html",
+      "uri": "nyt://article/f5b31647-781b-5398-8c43-20133cadd074",
+      "byline": "By Emmanuel Morgan and Ken Belson",
+      "item_type": "Article",
+      "updated_date": "2023-01-03T11:37:50-05:00",
+      "created_date": "2023-01-02T21:21:35-05:00",
+      "published_date": "2023-01-02T21:21:35-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Football", "Sports Injuries"],
+      "org_facet": [
+        "Buffalo Bills",
+        "Cincinnati Bengals",
+        "National Football League"
+      ],
+      "per_facet": ["Hamlin, Damar (1998- )"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/01/02/multimedia/02nfl-bills-ambulance-1-a4d3/02nfl-bills-ambulance-1-a4d3-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption":
+            "An ambulance carrying Damar Hamlin left the field at Paycor Stadium during the game between the Bills and Bengals on Monday night.",
+          "copyright": "Dylan Buell/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/01/02/multimedia/02nfl-bills-ambulance-1-a4d3/02nfl-bills-ambulance-1-a4d3-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption":
+            "An ambulance carrying Damar Hamlin left the field at Paycor Stadium during the game between the Bills and Bengals on Monday night.",
+          "copyright": "Dylan Buell/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/01/02/multimedia/02nfl-bills-ambulance-1-a4d3/02nfl-bills-ambulance-1-a4d3-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption":
+            "An ambulance carrying Damar Hamlin left the field at Paycor Stadium during the game between the Bills and Bengals on Monday night.",
+          "copyright": "Dylan Buell/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3Q6QhXq"
+    }
+  ]
+}
