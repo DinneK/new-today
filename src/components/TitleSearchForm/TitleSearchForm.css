@@ -1,0 +1,29 @@
+.search-form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+}
+
+.title-search-input {
+  border: .25px solid #000000;
+  box-shadow:  6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  height: 3vh;
+}
+
+form {
+  display: flex;
+}
+
+.clear-button {
+  background-color: #ffffff;
+  border: 0.25px solid #000000;
+  box-shadow:  6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  margin-left: 2%;
+  width: 10vw;
+}
+
+.clear-button:hover {
+  transition: transform .7s;
+  transform: scale(1.1);
+}

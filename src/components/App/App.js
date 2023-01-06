@@ -43,6 +43,10 @@ function App() {
     });
   };
 
+  const clearResults = () => {
+    setSearchTerm("");
+  };
+
   return (
     <main>
       <Header />
@@ -54,6 +58,7 @@ function App() {
             <div>
               <TitleSearchForm
                 handleChange={handleChange}
+                searchTerm={searchTerm}
                 // updateSearchByTitle={updateSearchByTitle}
               />
               <ArticlesContainer articles={articles} searchTerm={searchTerm} />
@@ -67,7 +72,12 @@ function App() {
             const clickedArticle = findSingleArticle(
               match.params.publishedDate
             );
-            return <SingleArticle singleArticle={clickedArticle} />;
+            return (
+              <SingleArticle
+                singleArticle={clickedArticle}
+                clearResults={clearResults}
+              />
+            );
           }}
         />
       </Switch>
