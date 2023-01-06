@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import NYTLogo from "../../assets/images/NYT-LOGO.png";
 import "./SingleArticle.css";
 
 const SingleArticle = ({ singleArticle, clearResults }) => {
@@ -47,12 +48,18 @@ const SingleArticle = ({ singleArticle, clearResults }) => {
         </div>
         <div className="single-article-image-details">
           <img
-            src={singleArticle[0].multimedia[1].url}
+            src={
+              !singleArticle.multimedia
+                ? NYTLogo
+                : singleArticle.multimedia[1].url
+            }
             alt={singleArticle[0].title}
             className="single-article-image"
           />
-          <h4 className="single-article-caption">
-            {singleArticle[0].multimedia[1].caption}
+          <h4>
+            {!singleArticle.multimedia
+              ? ""
+              : singleArticle.multimedia[1].caption}
           </h4>
         </div>
       </div>
