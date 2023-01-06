@@ -2,7 +2,11 @@ import React from "react";
 import "./Header.css";
 
 const Header = () => {
-  return <h1>Today's News</h1>;
+  return (
+    <div className="header-styling">
+      <h1>Today's News</h1>
+    </div>
+  );
 };
 
 export default Header;

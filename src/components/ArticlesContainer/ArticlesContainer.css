@@ -3,4 +3,5 @@
   flex-wrap: wrap;
   height: 75vh;
   justify-content: space-evenly;
+  overflow: scroll;
 }

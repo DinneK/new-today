@@ -1,5 +1,6 @@
 import React from "react";
 import ArticleCard from "../ArticleCard/ArticleCard.js";
+import NYTLogo from "../../assets/images/NYT-LOGO.png";
 import "./ArticlesContainer.css";
 
 const ArticlesContainer = ({ articles, searchTerm }) => {
@@ -16,7 +17,7 @@ const ArticlesContainer = ({ articles, searchTerm }) => {
       <ArticleCard
         id={article.uri}
         key={article.uri}
-        thumbnail={article.multimedia[2].url}
+        thumbnail={!article.multimedia ? NYTLogo : article.multimedia[1].url}
         title={article.title}
         section={article.section}
         publishedDate={article.published_date}
